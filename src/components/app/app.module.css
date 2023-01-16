@@ -1,0 +1,24 @@
+.App {
+  font-size: 32px;
+}
+
+.menu {
+  position: relative;
+  min-width: max-content;
+  width: 200px;
+}
+
+.resizer {
+  position: absolute;
+  content: '';
+  width: 8px;
+  height: 100%;
+  top: 0;
+  right: -5px;
+  background: none;
+  z-index: 401;
+}
+
+.resizer:hover {
+  cursor: ew-resize;
+}
